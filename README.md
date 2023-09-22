@@ -14,12 +14,12 @@ Blockchain is a distributed ledger technology that underpins cryptocurrencies. B
 
   The transaction element is the largest because it contains the most information. It is followed in storage size by the block header, which includes these sub-elements:
 
-- Version: The cryptocurrency version being used.
-- Previous block hash: Contains a hash (encrypted number) of the previous block's header.
-- Hash Merkle root: Hash of transactions in the Merkle tree of the current block.
-- Time: A timestamp to place the block in the blockchain.
-- Bits: The difficulty rating of the target hash, signifying the difficulty in solving the nonce.
-- Nonce: The encrypted number that a miner must solve to verify the block and close it.
+*  Version: The cryptocurrency version being used.
+*  Previous block hash: Contains a hash (encrypted number) of the previous block's header.
+*  Hash Merkle root: Hash of transactions in the Merkle tree of the current block.
+*  Time: A timestamp to place the block in the blockchain.
+*  Bits: The difficulty rating of the target hash, signifying the difficulty in solving the nonce.
+*  Nonce: The encrypted number that a miner must solve to verify the block and close it.
 
 Characteristics of Blockchain:
 - Blockchain operates in a decentralized manner, meaning there is no central authority, institution, or single point of control. Instead, it relies on a network of nodes that work collectively. This decentralization enhances security and reduces the risk of manipulation. 
